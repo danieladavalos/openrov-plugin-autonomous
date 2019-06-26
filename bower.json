@@ -1,11 +1,12 @@
 {
-  "name": "openrov-plugin-stablerotation",
-  "description": "A plugin for stabilisation of cameras rotation",
+  "name": "openrov-plugin-autonomous",
+  "description": "A plugin for autonomous OpenROV.",
   "version": "0.0.1",
   "homepage": "",
-  "main": "public/js/stablerotation.js",
+  "main": "public/js/example.js",
   "keywords": [
     "openrov",
     "plugin"
+    "plugin-api-2"
   ]
 }

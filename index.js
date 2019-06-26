@@ -1,5 +1,5 @@
-function stablerotation(name, deps) {
-    console.log("This is where plugin code for stablerotation loads in the node process.");
+function autonomous(name, deps) {
+    console.log("This is where plugin code for autonomous OpenROV loads in the node process.");
 
   //This is how you would register a listner to traffic from the browser
   /*
@@ -21,4 +21,4 @@ function stablerotation(name, deps) {
   */
 };
 
-module.exports = stablerotation;
+module.exports = autonomous;

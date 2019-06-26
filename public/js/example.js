@@ -1,11 +1,11 @@
-(function(window) 
+(function(window)
 {
     'use strict';
-    class Example 
+    class Example
     {
         constructor( cockpit )
         {
-            console.log('Example Plugin running');
+            console.log('Autonomous Plugin running');
 
             var self = this;
             self.cockpit = cockpit;
@@ -13,7 +13,7 @@
             self.settings = null;     // These get sent by the local model
 
             //Set up actions associated with this plugin
-            this.actions = 
+            this.actions =
             {
                 "plugin.example.sayHello":
                 {
@@ -22,7 +22,8 @@
                     {
                         button:
                         {
-                            down: function() {
+                            down: function()
+                            {
                                 cockpit.emit('plugin.example.sayHello');
                             }
                         }
@@ -57,7 +58,7 @@
 
         // This pattern will hook events in the cockpit and pull them all back
         // so that the reference to this instance is available for further processing
-        listen() 
+        listen()
         {
             var self = this;
 
